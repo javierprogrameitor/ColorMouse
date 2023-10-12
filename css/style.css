@@ -1,0 +1,48 @@
+#container {
+    width: 1000px; /* Ancho deseado */
+    height: 1500px; /* Alto deseado */
+    background-color: lightblue;
+}
+.cuadro-pequeno {
+    width: 10px;
+    height: 10px;
+    background-color: blue; /* Color inicial de los cuadros */
+    margin: 1px; /* Espacio entre los cuadros */
+    float: left; /* Para que se coloquen en una fila */
+    transition: background-color 0.2s; /* Transición suave al cambiar de color */
+}
+
+body {
+  /* Elimina el margen predeterminado del body */
+  background-color:grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    align-content: space-around;
+    flex-direction: column;
+}
+
+#buttonns{
+    background-color: #E6B457;  /* Cambia el color de fondo */
+    color: #E62602;             /* Cambia el color del texto */
+    border: 2px solid #2980b9; /* Cambia el estilo del borde */
+    padding: 10px 20px;        /* Ajusta el relleno para cambiar el tamaño */
+    border-radius: 5px;        /* Agrega esquinas redondeadas */
+    cursor: pointer;
+}
+#buttonns:hover{
+    background-color: #2980b9; 
+}
+
+h1,h3,label {
+    display: block;
+    color:#E6B457;
+
+}
+input[type="number"] {
+    background-color: lightblue; /* Cambia el color de fondo */
+    color: darkblue; /* Cambia el color del texto */
+}
